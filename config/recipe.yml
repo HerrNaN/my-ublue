@@ -22,11 +22,11 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - https://copr.fedorainfracloud.org/coprs/herrnan/first-project/repo/fedora-39/herrnan-first-project-fedora-39.repo
+      - https://copr.fedorainfracloud.org/coprs/herrnan/i3-gnome-flashback/repo/fedora-39/herrnan-i3-gnome-flashback-fedora-39.repo
     install:
       - i3
       - gnome-flashback
-      - first-project
+      - i3-gnome-flashback
     # remove:
     #   - firefox # default firefox removed in favor of flatpak
     #   - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
