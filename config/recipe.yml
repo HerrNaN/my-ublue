@@ -22,7 +22,7 @@ modules:
 
   - type: rpm-ostree
     repos:
-      - https://copr.fedorainfracloud.org/coprs/herrnan/first-project/repo/fedora-rawhide/herrnan-first-project-fedora-rawhide.repo
+      - https://copr.fedorainfracloud.org/coprs/herrnan/first-project/repo/fedora-39/herrnan-first-project-fedora-39.repo
     install:
       - i3
       - gnome-flashback
